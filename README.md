@@ -25,21 +25,22 @@
 
 ## 🧑‍💻 About Me
 
-<img align="right" alt="AI coding" width="340" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" />
+<table>
+<tr>
+<td width="55%" valign="top">
 
 ```python
 class Sachin:
     def __init__(self):
-        self.name       = "Sachin Thakur"
-        self.role       = "B.Tech Student — AI & ML"
-        self.location   = "Madhubani, Bihar, India 🇮🇳"
-        self.status     = "🟢 Open to Work"
-        self.learning   = ["Machine Learning", "Deep Learning", "Python"]
-        self.interests  = ["AI", "Data Science", "Open Source"]
-        self.fun_fact   = "I turn coffee ☕ into code 💻"
+        self.name     = "Sachin Thakur"
+        self.role     = "B.Tech — AI & ML"
+        self.location = "Madhubani, India 🇮🇳"
+        self.status   = "🟢 Open to Work"
+        self.learning = ["ML", "Deep Learning", "Python"]
+        self.fun_fact = "Coffee ☕ → Code 💻"
 
     def say_hi(self):
-        print("Thanks for stopping by! Let's build something amazing 🚀")
+        print("Let's build something amazing 🚀")
 
 me = Sachin()
 me.say_hi()
